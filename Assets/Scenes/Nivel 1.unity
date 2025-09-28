@@ -822,6 +822,7 @@ GameObject:
   - component: {fileID: 606011824}
   - component: {fileID: 606011823}
   - component: {fileID: 606011822}
+  - component: {fileID: 606011826}
   m_Layer: 0
   m_Name: Muro de piedras
   m_TagString: Untagged
@@ -924,6 +925,20 @@ Transform:
   - {fileID: 1223578023}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &606011826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606011821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,6 +1000,7 @@ GameObject:
   - component: {fileID: 995219017}
   - component: {fileID: 995219016}
   - component: {fileID: 995219015}
+  - component: {fileID: 995219019}
   m_Layer: 0
   m_Name: Muro del laberinto 2 (6)
   m_TagString: Untagged
@@ -1081,6 +1097,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606011825}
   m_LocalEulerAnglesHint: {x: 0, y: -89.925, z: 0}
+--- !u!114 &995219019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995219014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1 &1030081199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1232,7 @@ GameObject:
   - component: {fileID: 1085488445}
   - component: {fileID: 1085488444}
   - component: {fileID: 1085488443}
+  - component: {fileID: 1085488447}
   m_Layer: 0
   m_Name: Muro del laberinto 2 (5)
   m_TagString: Untagged
@@ -1298,6 +1329,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606011825}
   m_LocalEulerAnglesHint: {x: 0, y: -89.925, z: 0}
+--- !u!114 &1085488447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085488442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1 &1221240176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1355,7 @@ GameObject:
   - component: {fileID: 1221240179}
   - component: {fileID: 1221240178}
   - component: {fileID: 1221240177}
+  - component: {fileID: 1221240181}
   m_Layer: 0
   m_Name: Muro del laberinto 2 (3)
   m_TagString: Untagged
@@ -1406,6 +1452,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606011825}
   m_LocalEulerAnglesHint: {x: 0, y: -89.925, z: 0}
+--- !u!114 &1221240181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221240176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1 &1223578019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,6 +1478,7 @@ GameObject:
   - component: {fileID: 1223578022}
   - component: {fileID: 1223578021}
   - component: {fileID: 1223578020}
+  - component: {fileID: 1223578024}
   m_Layer: 0
   m_Name: Muro del laberinto 2 (1)
   m_TagString: Untagged
@@ -1514,6 +1575,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606011825}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1223578024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223578019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1 &1248614695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,6 +1734,7 @@ MonoBehaviour:
   movimientoEjeX: 0
   movimientoEjeY: 0
   movimientoEjeZ: 0
+  velocidadDeMovimiento: 2.5
 --- !u!54 &1503663683
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1684,7 +1760,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &1503663684
 BoxCollider:
@@ -1787,6 +1863,7 @@ GameObject:
   - component: {fileID: 1922269643}
   - component: {fileID: 1922269642}
   - component: {fileID: 1922269641}
+  - component: {fileID: 1922269645}
   m_Layer: 0
   m_Name: Muro del laberinto 2 (4)
   m_TagString: Untagged
@@ -1883,6 +1960,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606011825}
   m_LocalEulerAnglesHint: {x: 0, y: -89.925, z: 0}
+--- !u!114 &1922269645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922269640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1 &2107419081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,6 +1986,7 @@ GameObject:
   - component: {fileID: 2107419084}
   - component: {fileID: 2107419083}
   - component: {fileID: 2107419082}
+  - component: {fileID: 2107419086}
   m_Layer: 0
   m_Name: Muro del laberinto 2 (2)
   m_TagString: Untagged
@@ -1991,6 +2083,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606011825}
   m_LocalEulerAnglesHint: {x: 0, y: -89.925, z: 0}
+--- !u!114 &2107419086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107419081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0990b6906565b6340811b937a2a39f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDeRoca: {fileID: 2100000, guid: 4f3bad5aeb325c641a76b2449f8c415c, type: 2}
+  materialMuroTocada: {fileID: 2100000, guid: 071455445f615a449ba0da66550ea08a, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

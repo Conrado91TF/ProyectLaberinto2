@@ -7,17 +7,15 @@ public class PlayerMovement : MonoBehaviour
     public float movimientoEjeY;
     public float movimientoEjeZ;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float velocidadDeMovimiento = 1.5f;
+    
 
     // Update is called once per frame
     void Update()
     {
-        movimientoEjeZ = Input.GetAxis("Vertical") * Time.deltaTime;
-        movimientoEjeX = + Input.GetAxis("Horizontal") * Time.deltaTime;
+        //Movimiento del Player y Velocidad
+        movimientoEjeZ = Input.GetAxis("Vertical") * Time.deltaTime * velocidadDeMovimiento;
+        movimientoEjeX = +Input.GetAxis("Horizontal") * Time.deltaTime * velocidadDeMovimiento;
         transform.Translate(movimientoEjeX, movimientoEjeY, movimientoEjeZ);
     }
 }
