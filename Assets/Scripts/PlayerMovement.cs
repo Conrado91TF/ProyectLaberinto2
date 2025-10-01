@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    //Movimiento del Player en los ejes
     public float movimientoEjeX;
     public float movimientoEjeY;
     public float movimientoEjeZ;
